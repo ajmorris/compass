@@ -28,3 +28,5 @@ assets/composer/
 /theme/languages
 /theme/style*.*
 /theme/screenshot.png
+
+npm-debug.log
