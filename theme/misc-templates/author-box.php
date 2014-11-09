@@ -2,7 +2,7 @@
 /**
  * Single post author box template.
  *
- * @package     Compass
+ * @package     Hoaloha
  * @subpackage  HybridCore
  * @copyright   Copyright (c) 2014, Flagship, LLC
  * @license     GPL-2.0+
@@ -22,7 +22,7 @@
 		<div class="author-info">
 
 			<h3 class="author-box-title">
-				<?php _e( 'Written by ', 'compass' ); ?>
+				<?php _e( 'Written by ', 'hoaloha' ); ?>
 				<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>">
 					<span class="name" itemprop="name"><?php the_author(); ?></span>
 				</a>
@@ -41,7 +41,7 @@
 			<?php if ( get_the_author_meta( 'twitter' ) ) : ?>
 			<li class="social-twitter">
 				<a href="<?php echo esc_url( 'https://twitter.com/' . get_the_author_meta( 'twitter' ) ); ?>">
-					<span class="text"><?php esc_attr_e( 'Twitter', 'compass' ); ?></span>
+					<span class="text"><?php esc_attr_e( 'Twitter', 'hoaloha' ); ?></span>
 				</a>
 			</li>
 			<?php endif; ?>
@@ -49,7 +49,7 @@
 			<?php if ( get_the_author_meta( 'googleplus' ) ) : ?>
 			<li class="social-gplus">
 				<a href="<?php the_author_meta( 'googleplus' ); ?>">
-					<span class="text"><?php esc_attr_e( 'Google+', 'compass' ); ?></span>
+					<span class="text"><?php esc_attr_e( 'Google+', 'hoaloha' ); ?></span>
 				</a>
 			</li>
 			<?php endif; ?>
@@ -57,14 +57,14 @@
 			<?php if ( get_the_author_meta( 'facebook' ) ) : ?>
 			<li class="social-facebook">
 				<a href="<?php echo the_author_meta( 'facebook' ); ?>">
-					<span class="text"><?php esc_attr_e( 'Facebook', 'compass' ); ?></span>
+					<span class="text"><?php esc_attr_e( 'Facebook', 'hoaloha' ); ?></span>
 				</a>
 			</li>
 			<?php endif; ?>
 
 			<li class="social-rss">
 				<a href="<?php echo esc_url( get_author_feed_link( get_the_author_meta( 'ID' ) ) ); ?>">
-					<span class="text"><?php esc_attr_e( 'RSS Feed', 'compass' ); ?></span>
+					<span class="text"><?php esc_attr_e( 'RSS Feed', 'hoaloha' ); ?></span>
 				</a>
 			</li>
 

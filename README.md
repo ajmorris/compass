@@ -1,4 +1,4 @@
-# Flagship Compass
+# Flagship Hoaloha
 
 The most advanced WordPress Starter theme ever created.
 
@@ -7,11 +7,11 @@ __Requires:__ WordPress 4.0
 __Tested up to:__ WordPress 4.0  
 __License:__ [GPL-2.0+](http://www.gnu.org/licenses/gpl-2.0.html)  
 
-Compass will revolutionize your theme development workflow by removing all the guesswork and letting you focus on the fun stuff. Built using the latest and greatest web development tools like Grunt, Sass, Bourbon, and Hybrid Core.
+Hoaloha will revolutionize your theme development workflow by removing all the guesswork and letting you focus on the fun stuff. Built using the latest and greatest web development tools like Grunt, Sass, Bourbon, and Hybrid Core.
 
 ## Project Development
 
-This documentation is by no means complete and will be expanded upon in the near future. In order to get up and running, you'll need to install a few key components. We've put together a screencast which will walk you through the setup process and we also have an entire pulic [forum dedicated to Compass](http://community.flagshipwp.com/category/compass) where you can register and learn from other developers who are using it to build cool stuff.
+This documentation is by no means complete and will be expanded upon in the near future. In order to get up and running, you'll need to install a few key components. We've put together a screencast which will walk you through the setup process and we also have an entire pulic [forum dedicated to Hoaloha](http://community.flagshipwp.com/category/hoaloha) where you can register and learn from other developers who are using it to build cool stuff.
 
 ### Project Structure
 
@@ -49,11 +49,11 @@ This documentation is by no means complete and will be expanded upon in the near
 
 ### Ruby and Sass
 
-Compass uses [Ruby](https://www.ruby-lang.org/en/) and Sass to build the `.scss` files into a CSS file. [Install Ruby](https://www.ruby-lang.org/en/installation/) and then run `gem install sass` to install Sass. You may need to use sudo (for OSX, *nix, BSD etc) or run your command shell as Administrator (for Windows) to do this.
+Hoaloha uses [Ruby](https://www.ruby-lang.org/en/) and Sass to build the `.scss` files into a CSS file. [Install Ruby](https://www.ruby-lang.org/en/installation/) and then run `gem install sass` to install Sass. You may need to use sudo (for OSX, *nix, BSD etc) or run your command shell as Administrator (for Windows) to do this.
 
 ### Composer
 
-Compass also uses [Composer](https://getcomposer.org/) to manage PHP dependencies such as [Hybrid Core](https://github.com/justintadlock/hybrid-core) and [Theme Hook Alliance](https://github.com/zamoose/themehookalliance) support. [Install Composer](https://getcomposer.org/doc/00-intro.md) to enable this functionality.
+Hoaloha also uses [Composer](https://getcomposer.org/) to manage PHP dependencies such as [Hybrid Core](https://github.com/justintadlock/hybrid-core) and [Theme Hook Alliance](https://github.com/zamoose/themehookalliance) support. [Install Composer](https://getcomposer.org/doc/00-intro.md) to enable this functionality.
 
 Make sure you have `~/.composer/vendor/bin/` or `/usr/local/bin/` (if you moved it) in your path by running:
 
@@ -132,7 +132,7 @@ This tool can be used directly, thought the `grunt phpcs` is already configured 
 
 ### Node, NPM and Grunt
 
-Finally, Compass requires Node.js to run the Grunt task runner, so [download Node.js](http://nodejs.org/download/) and install it.
+Finally, Hoaloha requires Node.js to run the Grunt task runner, so [download Node.js](http://nodejs.org/download/) and install it.
 
 Some Grunt tasks use external command-line applications, so you'll need them installed as global (not specific to this project) Node.js packages. Open up a terminal and run the following. You may need to use sudo (for OSX, *nix, BSD etc) or run your command shell as Administrator (for Windows) to do this.
 
@@ -165,7 +165,7 @@ There's apparently a package dependency issue that means the _grunt-phplint_ pac
 - Update `name` and `capitalname` in `package.json`.
   _At this stage, keep the theme name to a single word with no non-alphanumerical characters. The lowercase version is used for function name prefixes, and the upper case for class names (amongst other things), so spaces and punctuation will cause syntax errors._
 - On the command line, `cd` into the new project directory and run `npm install`.
-- Run `grunt newtheme`. This will replace instances of `compass` and `Compass` for function names, class names, text domains, enqueued script and style handles, README, and so on. It will then run a build process to generate everything needed for the theme.
+- Run `grunt newtheme`. This will replace instances of `hoaloha` and `Hoaloha` for function names, class names, text domains, enqueued script and style handles, README, and so on. It will then run a build process to generate everything needed for the theme.
 
 It doesn't change filenames, so avoid theme-specific filenames in the original project.
 
@@ -269,7 +269,7 @@ Once the project is passing the `grunt check` without failures, you can run `gru
 
 ## Package (`grunt package`)
 
-After a theme is built, you may wish to package it up as a zip file so it can be distributed. Compass includes a `package` task which does a complete build and then zips up the `theme/` directory into a zip file and places it into the `dist/` directory.
+After a theme is built, you may wish to package it up as a zip file so it can be distributed. Hoaloha includes a `package` task which does a complete build and then zips up the `theme/` directory into a zip file and places it into the `dist/` directory.
 
 There is also an optional `compress:dev` task, which does similar, but instead of just the theme directory, it takes the parent project root directory and zips that up. This is then suitable for further development work, for those who don't have access to the original repo.
 

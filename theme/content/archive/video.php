@@ -2,7 +2,7 @@
 /**
  * A template part for displaying a video entry within an archive.
  *
- * @package     Compass
+ * @package     Hoaloha
  * @subpackage  HybridCore
  * @copyright   Copyright (c) 2014, Flagship, LLC
  * @license     GPL-2.0+

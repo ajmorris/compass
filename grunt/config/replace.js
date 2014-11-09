@@ -84,11 +84,11 @@ module.exports = {
 		options: {
 			patterns: [
 				{
-					match: /compass/g,
+					match: /hoaloha/g,
 					replacement: '<%= pkg.name %>'
 				},
 				{
-					match: /Compass/g,
+					match: /Hoaloha/g,
 					replacement: '<%= pkg.capitalname %>'
 				}
 			]

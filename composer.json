@@ -1,5 +1,5 @@
 {
-  "name": "flagshipwp/compass",
+  "name": "flagshipwp/hoaloha",
   "description": "The most advanced WordPress Starter theme ever created.",
   "keywords": ["wordpress", "theme", "flagship"],
   "homepage": "http://flagshipwp.com",
@@ -17,8 +17,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/flagshipwp/compass/issues",
-    "forum": "http://community.flagshipwp.com/category/compass"
+    "issues": "https://github.com/flagshipwp/hoaloha/issues",
+    "forum": "http://community.flagshipwp.com/category/hoaloha"
   },
   "config": {
     "vendor-dir": "assets/composer"

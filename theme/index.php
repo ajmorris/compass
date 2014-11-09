@@ -8,7 +8,7 @@
  * E.g., it puts together the home page when no home.php file exists.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package     Compass
+ * @package     Hoaloha
  * @subpackage  HybridCore
  * @copyright   Copyright (c) 2014, Flagship, LLC
  * @license     GPL-2.0+

@@ -2,7 +2,7 @@
 /**
  * Theme Setup Functions and Definitions.
  *
- * @package     Compass
+ * @package     Hoaloha
  * @subpackage  HybridCore
  * @copyright   Copyright (c) 2014, Flagship, LLC
  * @license     GPL-2.0+
@@ -14,7 +14,7 @@
 require_once( trailingslashit( get_template_directory() ) . 'hybrid-core/hybrid.php' );
 new Hybrid();
 
-add_action( 'after_setup_theme', 'compass_setup', 10 );
+add_action( 'after_setup_theme', 'hoaloha_setup', 10 );
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -25,15 +25,15 @@ add_action( 'after_setup_theme', 'compass_setup', 10 );
  * @since   1.0.0
  * @return  void
  */
-function compass_setup() {
+function hoaloha_setup() {
 	// Add Support for Theme layouts.
 	add_theme_support(
 		'theme-layouts',
 		array(
-			'1c'        => __( '1 Column Wide',                'compass' ),
-			'1c-narrow' => __( '1 Column Narrow',              'compass' ),
-			'2c-l'      => __( '2 Columns: Content / Sidebar', 'compass' ),
-			'2c-r'      => __( '2 Columns: Sidebar / Content', 'compass' )
+			'1c'        => __( '1 Column Wide',                'hoaloha' ),
+			'1c-narrow' => __( '1 Column Narrow',              'hoaloha' ),
+			'2c-l'      => __( '2 Columns: Content / Sidebar', 'hoaloha' ),
+			'2c-r'      => __( '2 Columns: Sidebar / Content', 'hoaloha' )
 		),
 		array( 'default' => is_rtl() ? '2c-r' :'2c-l' )
 	);
@@ -48,7 +48,7 @@ function compass_setup() {
 	add_theme_support( 'hybrid-core-styles', array( 'google-fonts', 'parent', 'style', )	);
 
 	// Add navigation menus.
-	register_nav_menu( 'after-header', _x( 'After Header Menu', 'nav menu location', 'compass' ) );
+	register_nav_menu( 'after-header', _x( 'After Header Menu', 'nav menu location', 'hoaloha' ) );
 
 	$formats = array(
 		'aside',
@@ -84,14 +84,14 @@ function compass_setup() {
 	add_theme_support( 'flagship-footer-widgets', 3 );
 }
 
-add_action( 'after_setup_theme', 'compass_includes', 10 );
+add_action( 'after_setup_theme', 'hoaloha_includes', 10 );
 /**
  * Load all required theme files.
  *
  * @since   1.0.0
  * @return  void
  */
-function compass_includes() {
+function hoaloha_includes() {
 	// Set the includes directories.
 	$includes_dir = get_template_directory() . '/includes';
 

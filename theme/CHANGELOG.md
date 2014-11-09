@@ -1,4 +1,4 @@
-# Changelog for Compass
+# Changelog for Hoaloha
 
 ## 1.0.0
 

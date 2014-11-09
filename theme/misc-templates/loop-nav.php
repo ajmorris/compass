@@ -2,7 +2,7 @@
 /**
  * A template part to display single entry navigation and pagination for archives.
  *
- * @package     Compass
+ * @package     Hoaloha
  * @subpackage  HybridCore
  * @copyright   Copyright (c) 2014, Flagship, LLC
  * @license     GPL-2.0+
@@ -14,8 +14,8 @@
 <?php if ( is_singular( 'post' ) ) : ?>
 
 	<nav class="nav-single">
-		<?php previous_post_link( '<span class="nav-previous">' . __( '%link', 'compass' ) . '</span>', '&larr; Previous Post' ); ?>
-		<?php next_post_link(     '<span class="nav-next">' . __( '%link', 'compass' ) . '</span>', 'Next Post &rarr;' ); ?>
+		<?php previous_post_link( '<span class="nav-previous">' . __( '%link', 'hoaloha' ) . '</span>', '&larr; Previous Post' ); ?>
+		<?php next_post_link(     '<span class="nav-next">' . __( '%link', 'hoaloha' ) . '</span>', 'Next Post &rarr;' ); ?>
 	</nav><!-- .nav-singl -->
 
 	<?php
@@ -26,8 +26,8 @@ if ( is_home() || is_archive() || is_search() ) :
 
 	loop_pagination(
 		array(
-			'prev_text' => '<span class="screen-reader-text">' . __( 'Previous Page', 'compass' ) . '</span>',
-			'next_text' => '<span class="screen-reader-text">' . __( 'Next Page', 'compass' ) . '</span>',
+			'prev_text' => '<span class="screen-reader-text">' . __( 'Previous Page', 'hoaloha' ) . '</span>',
+			'next_text' => '<span class="screen-reader-text">' . __( 'Next Page', 'hoaloha' ) . '</span>',
 		)
 	);
 

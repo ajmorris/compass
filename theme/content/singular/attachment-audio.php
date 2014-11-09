@@ -2,7 +2,7 @@
 /**
  * A template part for displaying single audio attachments.
  *
- * @package     Compass
+ * @package     Hoaloha
  * @subpackage  HybridCore
  * @copyright   Copyright (c) 2014, Flagship, LLC
  * @license     GPL-2.0+
@@ -45,7 +45,7 @@
 
 	<div class="media-info">
 
-		<h3><?php _e( 'Audio Info', 'compass' ); ?></h3>
+		<h3><?php _e( 'Audio Info', 'hoaloha' ); ?></h3>
 
 		<?php hybrid_media_meta(); ?>
 

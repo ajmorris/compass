@@ -1,17 +1,17 @@
 /**
- * Global JavaScript for Compass
+ * Global JavaScript for Hoaloha
  *
  * Includes all JS which is required within all sections of the theme.
  */
 
-window.compass = window.compass || {};
+window.hoaloha = window.hoaloha || {};
 
 (function( window, $, undefined ) {
 	'use strict';
 
-	var compass = window.compass;
+	var hoaloha = window.hoaloha;
 
-	$.extend( compass, {
+	$.extend( hoaloha, {
 
 		//* Skip Link Focus Fix
 		skipLinks: function() {
@@ -109,9 +109,9 @@ window.compass = window.compass || {};
 
 	// Document ready.
 	jQuery(function() {
-		compass.skipLinks();
-		compass.mobileNav();
-		compass.loadFitVids();
+		hoaloha.skipLinks();
+		hoaloha.mobileNav();
+		hoaloha.loadFitVids();
 		jQuery( document ).gamajoAccessibleMenu();
 	});
 })( this, jQuery );

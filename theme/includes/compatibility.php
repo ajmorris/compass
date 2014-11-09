@@ -2,7 +2,7 @@
 /**
  * Plugin Compatibility File
  *
- * @package     Compass
+ * @package     Hoaloha
  * @subpackage  HybridCore
  * @copyright   Copyright (c) 2014, Flagship, LLC
  * @license     GPL-2.0+
@@ -10,14 +10,14 @@
  * @since       1.0.0
  */
 
-add_action( 'after_setup_theme', 'compass_jetpack_setup', 12 );
+add_action( 'after_setup_theme', 'hoaloha_jetpack_setup', 12 );
 /**
  * Make adjustments to the theme when Jetpack is installed and activated.
  *
  * @since  1.0.0
  * @return void
  */
-function compass_jetpack_setup() {
+function hoaloha_jetpack_setup() {
 	// Return early if Jetpack isn't activated.
 	if ( ! class_exists( 'Jetpack' ) ) {
 		return;

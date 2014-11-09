@@ -2,7 +2,7 @@
 module.exports = {
 	options: {
 		textdomain: '<%= pkg.theme.textdomain %>',
-		updateDomains: ['compass'] // Hard-coded by default
+		updateDomains: ['hoaloha'] // Hard-coded by default
 	},
 	php: {
 		files: {

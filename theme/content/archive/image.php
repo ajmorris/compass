@@ -2,7 +2,7 @@
 /**
  * A template part for displaying an image entry within an archive.
  *
- * @package     Compass
+ * @package     Hoaloha
  * @subpackage  HybridCore
  * @copyright   Copyright (c) 2014, Flagship, LLC
  * @license     GPL-2.0+
@@ -21,7 +21,7 @@
 	// Display a featured image if we can find something to display.
 	get_the_image(
 		array(
-			'size'          => 'compass-full',
+			'size'          => 'hoaloha-full',
 			'scan'          => true,
 			'caption'       => false,
 			'order'         => array( 'scan_raw', 'scan', 'featured', 'attachment', ),

@@ -2,7 +2,7 @@
 /**
  * A template part for displaying a gallery entry within an archive.
  *
- * @package     Compass
+ * @package     Hoaloha
  * @subpackage  HybridCore
  * @copyright   Copyright (c) 2014, Flagship, LLC
  * @license     GPL-2.0+
@@ -21,7 +21,7 @@
 	// Display a featured image if one has been set.
 	get_the_image(
 		array(
-			'size'   => 'compass-full',
+			'size'   => 'hoaloha-full',
 			'before' => '<div class="featured-media image">',
 			'after'  => '</div>',
 		)
@@ -45,7 +45,7 @@
 	<div <?php hybrid_attr( 'entry-summary' ); ?>>
 		<?php the_excerpt(); ?>
 		<?php $count = hybrid_get_gallery_item_count(); ?>
-		<p class="gallery-count"><?php printf( _n( 'This gallery contains %s item.', 'This gallery contains %s items.', $count, 'compass' ), $count ); ?></p>
+		<p class="gallery-count"><?php printf( _n( 'This gallery contains %s item.', 'This gallery contains %s items.', $count, 'hoaloha' ), $count ); ?></p>
 	</div><!-- .entry-summary -->
 
 	<?php tha_entry_bottom(); ?>

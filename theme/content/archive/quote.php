@@ -2,7 +2,7 @@
 /**
  * A template part for displaying a quote entry within an archive.
  *
- * @package     Compass
+ * @package     Hoaloha
  * @subpackage  HybridCore
  * @copyright   Copyright (c) 2014, Flagship, LLC
  * @license     GPL-2.0+
@@ -25,7 +25,7 @@
 		<p class="entry-meta">
 			<?php hybrid_post_format_link(); ?>
 			<?php flagship_entry_published(); ?>
-			<a class="entry-permalink" href="<?php the_permalink(); ?>" rel="bookmark" itemprop="url"><?php _e( 'Permalink', 'compass' ); ?></a>
+			<a class="entry-permalink" href="<?php the_permalink(); ?>" rel="bookmark" itemprop="url"><?php _e( 'Permalink', 'hoaloha' ); ?></a>
 			<?php flagship_entry_comments_link(); ?>
 			<?php edit_post_link(); ?>
 		</p><!-- .entry-meta -->

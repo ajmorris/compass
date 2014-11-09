@@ -1,6 +1,6 @@
 {
-  "name": "compass",
-  "capitalname": "Compass",
+  "name": "hoaloha",
+  "capitalname": "Hoaloha",
   "version": "1.1.0",
   "copyright": "2014",
   "license": "GPL-2.0+",
@@ -24,15 +24,15 @@
     }
   ],
   "theme": {
-    "name": "Compass",
-    "uri": "http://flagshipwp.com/themes/compass/",
+    "name": "Hoaloha",
+    "uri": "http://flagshipwp.com/themes/hoaloha/",
     "description": "The most advanced WordPress Starter theme ever created. Built with Hybrid Core, Theme Hook Alliance, Bourbon, and Neat.",
     "author": "Flagship",
     "authoruri": "http://flagshipwp.com",
     "tags": "white, light, one-column, two-columns, right-sidebar, responsive-layout, custom-header, custom-menu, editor-style, featured-images, 'seo-friendly', microformats, post-formats, sticky-post, translation-ready",
     "license": "GPL-2.0+",
     "licenseuri": "http://www.gnu.org/licenses/gpl-2.0.html",
-    "textdomain": "compass",
+    "textdomain": "hoaloha",
     "domainpath": "/languages"
   },
   "pot": {
@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/FlagshipWP/compass.git"
+    "url": "https://github.com/FlagshipWP/hoaloha.git"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

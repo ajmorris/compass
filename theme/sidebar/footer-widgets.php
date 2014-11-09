@@ -2,7 +2,7 @@
 /**
  * Footer Widgets Sidebar Template
  *
- * @package     Compass
+ * @package     Hoaloha
  * @subpackage  HybridCore
  * @copyright   Copyright (c) 2014, Flagship, LLC
  * @license     GPL-2.0+

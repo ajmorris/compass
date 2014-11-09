@@ -2,7 +2,7 @@
 /**
  * The Header for our theme.
  *
- * @package     Compass
+ * @package     Hoaloha
  * @subpackage  HybridCore
  * @copyright   Copyright (c) 2014, Flagship, LLC
  * @license     GPL-2.0+
@@ -28,7 +28,7 @@
 
 		<div class="skip-link">
 			<a href="#content" class="button screen-reader-text">
-				<?php _e( 'Skip to content (Press enter)', 'compass' ); ?>
+				<?php _e( 'Skip to content (Press enter)', 'hoaloha' ); ?>
 			</a>
 		</div><!-- .skip-link -->
 

@@ -2,7 +2,7 @@
 /**
  * A template part for displaying single image entries.
  *
- * @package     Compass
+ * @package     Hoaloha
  * @subpackage  HybridCore
  * @copyright   Copyright (c) 2014, Flagship, LLC
  * @license     GPL-2.0+
@@ -21,7 +21,7 @@
 	// Display a featured image if we can find something to display.
 	get_the_image(
 		array(
-			'size'          => 'compass-full',
+			'size'          => 'hoaloha-full',
 			'split_content' => true,
 			'scan_raw'      => true,
 			'scan'          => true,

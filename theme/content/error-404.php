@@ -2,7 +2,7 @@
 /**
  * A template to display when a 404 error occurs.
  *
- * @package     Compass
+ * @package     Hoaloha
  * @subpackage  HybridCore
  * @copyright   Copyright (c) 2014, Flagship, LLC
  * @license     GPL-2.0+
@@ -18,12 +18,12 @@
 	<?php tha_entry_top(); ?>
 
 	<header class="entry-header">
-		<h1 class="entry-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'compass' ); ?></h1>
+		<h1 class="entry-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'hoaloha' ); ?></h1>
 	</header><!-- .page-header -->
 
 	<div class="entry-content">
 
-		<p><?php _e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'compass' ); ?></p>
+		<p><?php _e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'hoaloha' ); ?></p>
 
 		<?php get_search_form(); ?>
 
@@ -31,7 +31,7 @@
 
 		<?php
 		// Translators: %1$s: smiley
-		$archive_content = '<p>' . sprintf( __( 'Try looking in the monthly archives. %1$s', 'compass' ), convert_smilies( ':)' ) ) . '</p>';
+		$archive_content = '<p>' . sprintf( __( 'Try looking in the monthly archives. %1$s', 'hoaloha' ), convert_smilies( ':)' ) ) . '</p>';
 		the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2> $archive_content" );
 		?>
 
