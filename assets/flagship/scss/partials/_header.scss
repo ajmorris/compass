@@ -16,11 +16,22 @@
 
 /* Title Area
 --------------------------------------------- */
+.author-image-heading {
+	float: none;
+	margin-right: 0;
+	padding: 10px 0;
+	width: auto;
+
+	@include media($medium-screen-up) {
+		float: left;
+		@include span-columns(1);
+	}
+}
 
 .branding {
 	float: none;
 	margin-right: 0;
-	padding: 10px 0;
+	padding: 10px;
 	width: auto;
 
 	@include media($medium-screen-up) {
@@ -62,7 +73,7 @@
 .header-right {
 	float: right;
 	text-align: right;
-	@include span-columns(8);
+	@include span-columns(7);
 
 	.widget {
 		margin: 0;

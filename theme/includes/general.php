@@ -88,6 +88,21 @@ function hoaloha_single_featured_image() {
 
 }
 
+add_action( 'tha_header_top', 'hoaloha_image_header' );
+/**
+ * Add author image to the header
+ *
+ * @since 	1.0.0
+ * @return 	void
+ */
+function hoaloha_image_header() {
+	?>
+	<div class="author-image-header">
+		<?php echo get_avatar( get_the_author_meta( 'email' ), 75, '', get_the_author() ); ?>
+	</div>
+	<?php
+}
+
 /**
  * Display footer credits for the theme.
  *
