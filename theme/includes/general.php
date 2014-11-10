@@ -57,6 +57,37 @@ function hoaloha_do_sticky_banner() {
 	<?php
 }
 
+add_action( 'wp_footer', 'hoaloha_add_this_footer' );
+/**
+ * Add markup for AddThis to all pages.
+ *
+ * @since 	1.0.0
+ * @return 	void
+ */
+function hoaloha_add_this_footer() {
+	echo '<!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-545edc6358e3ed88" async="async"></script>';
+}
+
+add_action( 'tha_entry_top', 'hoaloha_single_featured_image' );
+/**
+ * Add featured image above single post entry.
+ *
+ * @since 	1.0.0
+ * @return 	void
+ */
+function hoaloha_single_featured_image() {
+	if ( is_singular() ) {
+		
+	?>
+	<div class="featured-media image">
+		<?php the_post_thumbnail( 'full' ); ?>
+	</div>
+	<?php
+
+	}
+
+}
+
 /**
  * Display footer credits for the theme.
  *
