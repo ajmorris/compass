@@ -1,7 +1,7 @@
 {
   "name": "hoaloha",
   "capitalname": "Hoaloha",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "copyright": "2014",
   "license": "GPL-2.0+",
   "private": true,
@@ -25,15 +25,17 @@
   ],
   "theme": {
     "name": "Hoaloha",
-    "uri": "http://flagshipwp.com/themes/hoaloha/",
-    "description": "The most advanced WordPress Starter theme ever created. Built with Hybrid Core, Theme Hook Alliance, Bourbon, and Neat.",
-    "author": "Flagship",
-    "authoruri": "http://flagshipwp.com",
+    "uri": "http://github.com/ajmorris/hoaloha",
+    "description": "Hoaloha, the personal theme for AJ Morris.",
+    "author": "AJMorris",
+    "authoruri": "http://ajmorris.me",
     "tags": "white, light, one-column, two-columns, right-sidebar, responsive-layout, custom-header, custom-menu, editor-style, featured-images, 'seo-friendly', microformats, post-formats, sticky-post, translation-ready",
     "license": "GPL-2.0+",
     "licenseuri": "http://www.gnu.org/licenses/gpl-2.0.html",
     "textdomain": "hoaloha",
-    "domainpath": "/languages"
+    "domainpath": "/languages",
+    "githubthemeuri": "http://github.com/ajmorris/hoaloha",
+    "githubbranch": "master"
   },
   "pot": {
     "reportmsgidbugsto": "Robert Neu <translations@flagshipwp.com>",

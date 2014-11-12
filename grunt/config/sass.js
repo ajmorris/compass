@@ -18,6 +18,8 @@ module.exports = {
 			'Domain Path: <%= pkg.theme.domainpath %>\n' +
 			'License:     <%= pkg.theme.license %>\n' +
 			'License URI: <%= pkg.theme.licenseuri %>\n' +
+			'Github Theme URI: <%= pkg.theme.githubthemeuri %>\n' +
+			'Github Branch: <%= pkg.theme.githubbranch %>\n' +
 			'*/\n'
 	},
 	theme: {
