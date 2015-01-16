@@ -2,11 +2,11 @@
 	font-size: $secondary-font-size;
 
 	a {
-		color: $widget-link-color;
+		color: $base-button-background-color;
 
 		&:hover,
 		&:focus {
-			color: $base-link-color;
+			color: $base-insert-color;
 		}
 	}
 

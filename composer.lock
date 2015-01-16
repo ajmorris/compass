@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c63f10f75db22e9396f71ef197bd0ea9",
+    "hash": "dbb43a1d5fff901aa03b6d6cb7a3976a",
     "packages": [
         {
             "name": "flagshipwp/flagship-library",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlagshipWP/flagship-library.git",
-                "reference": "85dd6711160747bf21b640ddd123334f7c8675c0"
+                "reference": "8417d6f6151c37647b8f08c5f5a4d3fbdcf7d593"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlagshipWP/flagship-library/zipball/85dd6711160747bf21b640ddd123334f7c8675c0",
-                "reference": "85dd6711160747bf21b640ddd123334f7c8675c0",
+                "url": "https://api.github.com/repos/FlagshipWP/flagship-library/zipball/8417d6f6151c37647b8f08c5f5a4d3fbdcf7d593",
+                "reference": "8417d6f6151c37647b8f08c5f5a4d3fbdcf7d593",
                 "shasum": ""
             },
             "type": "library",
@@ -42,7 +42,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2014-11-07 21:33:36"
+            "time": "2014-11-10 06:51:48"
         },
         {
             "name": "justintadlock/hybrid-core",
