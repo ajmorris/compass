@@ -16,8 +16,8 @@ $light-fog:   #f5f5f5;
 $white:       #fff;
 $seafoam:     #33b787;
 $green:       #00a66c;
-$orange:      #e67e22;
 $blue:        #3498db;
+$orange:      $blue;
 
 // Global Base Colors
 //------------------------------------------------------------------------------
@@ -110,8 +110,8 @@ $table-border-color:                $base-border-color;
 $code-background-color:             $light-fog;
 $code-border-color:                 darken($base-border-color, 10);
 $code-font-color:                   $off-black;
-$entry-meta-font-color:             $medium-gray;
-$entry-meta-link-color:             $medium-gray;
+$entry-meta-font-color:             $blue;
+$entry-meta-link-color:             $blue;
 $entry-meta-link-hover-color:       $base-link-color;
 $entry-meta-link-border-color:      $base-link-color;
 $featured-media-background-color:   $medium-fog;

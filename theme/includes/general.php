@@ -65,7 +65,25 @@ add_action( 'wp_footer', 'hoaloha_add_this_footer' );
  * @return 	void
  */
 function hoaloha_add_this_footer() {
-	echo '<!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-545edc6358e3ed88" async="async"></script>';
+	?>
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-545edc6358e3ed88" async="async"></script>
+	<script>
+	    (function(f,b,g){
+	        var xo=g.prototype.open,xs=g.prototype.send,c;
+	        f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+	        f._hjSettings={hjid:1590, hjsv:2};
+	        function ls(){f.hj.documentHtml=b.documentElement.outerHTML;c=b.createElement("script");c.async=1;c.src="//static.hotjar.com/c/hotjar-1590.js?sv=2";b.getElementsByTagName("head")[0].appendChild(c);}
+	        if(b.readyState==="interactive"||b.readyState==="complete"||b.readyState==="loaded"){ls();}else{if(b.addEventListener){b.addEventListener("DOMContentLoaded",ls,false);}}
+	        if(!f._hjPlayback && b.addEventListener){
+	            g.prototype.open=function(l,j,m,h,k){this._u=j;xo.call(this,l,j,m,h,k)};
+	            g.prototype.send=function(e){var j=this;function h(){if(j.readyState===4){f.hj("_xhr",j._u,j.status,j.response)}}this.addEventListener("readystatechange",h,false);xs.call(this,e)};
+	        }
+	    })(window,document,window.XMLHttpRequest);
+	</script>
+		
+	<?php 
+
 }
 
 add_action( 'tha_entry_top', 'hoaloha_single_featured_image' );
@@ -102,6 +120,11 @@ function hoaloha_image_header() {
 	</div>
 	<?php
 }
+
+function hoaloha_new_excerpt_more( $more ) {
+	return ' <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More...', 'hoaloha') . '</a>';
+}
+add_filter( 'excerpt_more', 'hoaloha_new_excerpt_more' );
 
 /**
  * Display footer credits for the theme.
