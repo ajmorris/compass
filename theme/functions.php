@@ -107,6 +107,13 @@ function hoaloha_includes() {
 	require_once $includes_dir . '/general.php';
 	require_once $includes_dir . '/scripts.php';
 	require_once $includes_dir . '/widgetize.php';
+
+	//Initialize the update checker.
+	require_once 'theme-updates/theme-update-checker.php';
+	$update_checker = new ThemeUpdateChecker(
+	    'hoaloha-theme',
+	    'http://ajmorris.github.io/compass/info.json'
+	);
 }
 
 // Add a hook for child themes to execute code.
